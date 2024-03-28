@@ -1,0 +1,128 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body
+{
+	width: 100vw;
+	height: 100vh;
+	background: #dadada;
+}
+.container
+{
+	width: 55%;
+	height:90%;
+
+	margin: 40px auto;
+	top: 100px;
+	border: 2px solid black;
+	justify-content: center;
+	border-radius: 7px;
+}
+
+.main 
+{
+	width: 100%;
+	height: 85%;
+	top: 0;
+	left: 0;
+	border: 2px solid black ;
+	margin-bottom: 10px;
+	border-radius: 7px;
+	display: flex;
+	position: relative;
+}
+.prev
+{
+	position: absolute;
+	margin-left: 10px;
+	font-size: 60px;
+	top: 50%;
+	left: 20px;
+	transform: translateX(-50%);
+	border: none;
+	outline: none;
+	cursor: pointer;
+	scale: 100%;
+}
+.prev:hover
+{
+	scale: 110%;
+}
+.prev:focus
+{
+	scale: 90%;
+}
+.next
+{
+	position: absolute;
+	margin-right: 10px;
+	font-size: 60px;
+	top: 50%;
+	right: -10px;
+	transform: translateX(-50%);
+	border: none;
+	outline: none;
+	cursor: pointer;
+	scale: 100%;
+}
+.next:hover
+{
+	scale: 110%;
+}
+.next:focus
+{
+	scale: 90%;
+}
+.imageshow
+{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	border-radius: 7px;
+}
+
+.image
+{
+	width: 100%;
+	height: 14%;
+	padding: 5px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	position: relative;
+	scale: 100%;
+}
+.image div
+{
+	flex: 1;
+	padding: 5px;
+}
+img 
+{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	cursor: pointer;
+	scale: 100%;
+}
+.image div:hover
+{
+	scale: 110%;
+}
+.image div:focus
+{
+	scale: 90%;
+}
+.active
+{
+	background: #FF0033;
+}

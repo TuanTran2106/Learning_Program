@@ -1,0 +1,123 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body
+{
+	height: 100vh;
+	background-color: #CCFF00;
+	align-content: center;
+	justify-content: center;
+	display: flex;
+}
+.container
+{
+	width: 500px;
+	background: white;
+	margin: 100px auto;
+	border-radius: 8px;
+	padding: 10px 0;
+}	
+	
+form 
+{
+	width: 100%;
+	color: #BBBBBB;
+	font-size: 25px;
+	padding: 10px 20px;
+	display: inline-flex;
+	border-bottom: 2px solid #DDDDDD;
+}
+form #text
+{
+	width:90%;
+	color: #BBBBBB;
+	font-size: 25px;
+	border: none;
+	outline: none;
+	margin-right: 15px;
+}
+form button
+{
+	font-size: 20px;
+	background-color: #33FF00;
+	padding: 10px 20px;
+	border-radius: 8px;
+	color:white;
+	border: none;
+	outline: none;
+	margin-top: 10px;
+	margin-bottom: 10px ;
+	cursor: pointer;
+	scale: 100%;
+}
+button:hover
+{
+	scale: 110%;
+}
+button:focus
+{
+	scale: 90%;
+}
+.todo
+{
+	width:  500px;
+	background-color: white;
+	margin: auto;
+	border-radius: 8px;
+	padding: 10px 0;
+}
+li
+{
+	list-style-type: none;
+	display: block;
+}
+
+p
+{
+	display: inline-flex;
+	width: 80%;
+	font-size: 25px;
+	padding: 20px;
+	border: none;
+	outline: none;
+	margin-right: 30px;
+	cursor: pointer;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.finding
+{
+	border-bottom: 2px solid #555555;
+}
+.completed
+{
+	border-bottom: 2px solid #DDDDDD;
+}
+.finding p
+{
+	color:black;
+}
+.completed p
+{
+	color:#CCCCCC;
+}
+.completed i
+{
+	color:#CCCCCC;
+}
+.completed p
+{
+	text-decoration: line-through;
+	color:#aaa;
+}
+ i 
+{
+	font-size: 25px;
+	padding: 10px;
+	cursor: pointer;
+}
